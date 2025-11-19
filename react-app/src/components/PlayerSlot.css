@@ -1,0 +1,38 @@
+.player-slot {
+    --player-width: 120px;
+    --player-height: 160px;
+    --hexagon-point-height: 20px;
+    --player-bg-color: rgba(255, 255, 255, 0.1);
+  
+    width: var(--player-width);
+    height: var(--player-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--player-bg-color);
+    border: 1px solid white;
+    position: relative;
+  }
+  
+  .player-slot .plus {
+    font-size: calc(var(--player-width) / 2);
+    color: white;
+  }
+  
+  .player-slot-container {
+    border: 1px solid white;
+    width: var(--player-width);
+    height: var(--player-height);
+    box-sizing: border-box;
+    background-color: var(--player-bg-color);
+  }
+  
+  .player-slot-container .plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 40px;
+    color: white;
+  }
+  

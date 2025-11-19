@@ -1,0 +1,47 @@
+.team-lineup {
+    position: relative;
+    width: 50%; 
+    height:65%; 
+  }
+  
+  .court {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .back-row{
+    display: flex;
+    position: absolute;
+    width: 100%;
+  } 
+  
+  .front-row {
+    display: flex;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .front-row {
+    bottom: 0%;
+    justify-content: space-around;
+    background-color: rgba(255, 0, 0, 0);
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .back-row {
+    top: 0;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 255, 0);
+    padding: 0 100px;
+    box-sizing: border-box;
+  }
+  
+  .player-position {
+    position: relative;
+  }
+  
+  
+
+
